@@ -1,0 +1,100 @@
+
+.dp-highlighter {
+	font-family: Monaco, "Consolas", "Courier New", Courier, mono, serif;
+	font-size: 12px;
+}
+
+.dp-highlighter ol li,
+.dp-highlighter .columns div {
+	background-color: #ffffff;
+}
+
+.dp-highlighter .columns {
+	background-color: #ffffff;
+	color: gray;
+	overflow: hidden;
+	width: 100%;
+}
+
+.dp-highlighter ol li span {
+	color: #333333;
+	background-color: inherit;
+}
+
+.dp-highlighter ol,
+.dp-highlighter ol li,
+.dp-highlighter ol li span {
+	font-family: Monaco, "Consolas", "Courier New", Courier, mono, serif;
+	font-size: 12px;
+}
+
+.dp-highlighter ol li.alt {
+	background-color: rgb(252,252,252);
+	color: inherit;
+}
+
+.dp-highlighter .tools {
+	padding: 3px 8px 3px 10px;
+	font: 9px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: silver;
+	background-color: #FFFFFF;
+	padding-bottom: 10px;
+	border-left: 3px solid #6CE26C;
+	text-align:right;
+}
+
+.dp-highlighter .tools a {
+	font-size: 12px;
+	font-weight: bold;
+	color: #a0a0a0;
+	background-color: inherit;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.dp-highlighter .tools a:hover {
+	color: red;
+	background-color: inherit;
+	text-decoration: underline;
+}
+
+.dp-highlighter .comment, .dp-highlighter .comments {
+	color:rgb(35,110,37);
+	font-weight:normal;
+	background-color: inherit;
+}
+
+.dp-highlighter .string {
+	color:rgb(120,120,120);
+	font-weight:normal;
+	background-color: inherit;
+}
+
+.dp-highlighter .keyword {
+	color:rgb(0,0,204);
+	font-weight:normal;
+	background-color: inherit;
+}
+
+.dp-highlighter .preprocessor {
+	color: gray;
+	font-weight:normal;
+	background-color: inherit;
+}
+
+.dp-xml .cdata {
+	color: #ff1493;
+}
+
+.dp-xml .tag, .dp-xml .tag-name {
+	color:#069;
+	font-weight:normal;
+}
+
+.dp-xml .attribute {
+	color:rgb(170,0,0);
+}
+
+.dp-xml .attribute-value {
+	color:rgb(0,0,204);
+}

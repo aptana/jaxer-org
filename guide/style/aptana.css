@@ -1,0 +1,60 @@
+/* Primary Layout
+--------------------------*/
+
+img { behavior: url(/stylesheets/iepngfix.htc); }
+
+body {
+	text-align:center;
+	line-height: 120% !important;
+}
+
+/*
+#footer {
+	width:1020px;
+	background-image:url("images/background_footer.png");
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+*html #footer { behavior: url(iepngfix.htc); }
+
+#main {
+	background-image:url("images/background_main.png");
+	background-position:top left;
+	background-repeat:repeat;
+	padding:0;
+	margin:0;
+}*/
+
+#main {
+	background: #ffffff;
+}
+*html #main { behavior: url(/stylesheets/iepngfix.htc); }
+
+
+/* Main
+--------------------------*/
+
+#main #content {
+	margin: 40px 0 0 40px;
+	width: 900px;
+}
+
+#main #content { margin-top: -1px; }
+
+/* *html #main #content { width: 630px; } */
+
+#main #content h1 {
+	padding:16px 0px 16px 0px;
+	margin:0;
+}
+
+#main p#introduction {
+	font-size:14px;
+	line-height:20px;
+	color:#666;
+	padding:0;
+	margin:16px 0 16px 16px;
+}
+
+.clearfix { clear: both; margin: 0px; overflow: hidden; }
+

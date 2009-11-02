@@ -1,0 +1,419 @@
+/* Sitewide style overrides */
+
+img { behavior: url(/stylesheets/iepngfix.htc); }
+
+body {
+	text-align:center;
+	line-height: 120% !important;
+}
+
+
+
+#main {
+	background: #ffffff;
+}
+*html #main { behavior: url(/stylesheets/iepngfix.htc); }
+
+/* Header & Navigation
+--------------------------*/
+#header h1#logo {
+	width:306px;
+	height:53px;
+	display:block;
+	padding:0;
+	margin:0;
+	background-image:url("images/logo.png");
+	position:absolute;
+	left:33px;
+	top:18px;
+}
+*html #header h1#logo { behavior: url(/stylesheets/iepngfix.htc); }
+
+#header h1#logo span {
+	display:none;
+}
+
+#main #content {
+	margin: 0px;
+/*	width: 800px;*/
+}
+
+#main #content h1 {
+	padding: 8px 0px 16px 0px;
+	margin: 0 0 10px;
+	border-bottom: 1px solid #3369B7;
+}
+
+#main p#introduction {
+	font-size:14px;
+	line-height:20px;
+	color:#666;
+	padding:0;
+	margin:16px 0 16px 16px;
+}
+
+#content table#holdsContent {
+	padding-top:0px;
+	border: none;
+	width: 100%;	
+}
+
+#content table#holdsContent #leftSidebar {
+	width: 1px;
+	vertical-align: top;
+	padding: 0;
+}
+
+#section-container {
+	margin-right: 20px;
+	min-width: 650px;
+	background: #ffffff;
+}
+.clearfix { clear: both; margin: 0px; overflow: hidden; }
+
+/* Guide Styles 
+   -------------*/
+ 
+div.guide {
+	font-size: 12px;
+}
+
+div.guide-content {
+	padding-top:50px;
+	padding-bottom:50px;
+	font-weight : normal;
+}
+
+div.guide-content h1 {
+	font-weight : normal;
+	color : #000000;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-bottom:10px;
+}
+
+div.guide h2 {
+	font-size:120%;
+	font-weight : bold;
+	/* color:rgb(230,120,25); */
+	color: #fff;
+	background-color: #3C3C3C;
+	border-top:1px solid rgb(200,200,200);
+	border-bottom:1px solid rgb(200,200,200);
+	margin-bottom:10px;
+	margin-top:10px;
+	padding: 5px;
+}
+
+div.guide-content h3 {
+	font-size:100%;
+	font-weight : bold;
+	color : #ffffff;
+	background-color: #A0A0A1;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding: 4px;
+}
+
+div.guide h3.navigation-master {
+	margin-top:0px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-size: 216%;
+}
+
+div.guide .bigTarget li.hover {
+	background: #454d5c none repeat scroll 0 0;
+	color: #fff !important;
+	cursor: pointer !important;
+}
+
+div.guide .bigTarget li.hover a, div.guide .bigTarget a:hover, div.guide .assets a:hover {
+	text-decoration: none !important;
+	color: #fff !important;
+}
+
+div.guide .assets a:hover {
+	background: #454d5c none repeat scroll 0 0;
+}
+
+div.guide h4 {
+	font-size:100%;
+	font-weight : bold;
+	color : #000000;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+div.guide p {
+	font-weight : normal;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:0px;
+	padding-bottom:10px;
+}
+
+div.guide ul li {
+	margin-bottom: 10px;
+}
+
+div.guide-content .inlineList {
+	padding-left: 20px;
+}
+
+div.guide-content .inlineList li div {
+	margin-left: -20px;
+}
+
+div.guide div.navigation {
+	font-weight: bold;
+	color: #222222;
+	margin:0px 0px 0px 0px;
+	margin-bottom:20px;
+	padding:0px 0px 0px 0px;
+}
+
+div.guide div.assets-container {
+	width: 300px; 
+	float: right;
+	background-color:#ffffff;
+	padding: 0px;
+}
+
+div.guide div.assets {
+/*	font-weight: bold;*/
+	background-color: #f2f2f2;
+	border: 1px solid #cccccc;
+	margin: 20px;
+	padding: 5px;
+}
+
+div.guide div.assets-header {
+	margin: 0px 0px 5px 0px;
+	padding-bottom:2px;
+	font-weight: bold;
+}
+
+div.guide div.assets ul {
+	list-style-type:none;
+}
+
+div.guide div.assets ul, div.guide div.assets-body {
+	padding-left: 5px
+}
+
+div.guide div.assets ul li {
+	margin-bottom: 2px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+div.guide a {
+	text-decoration:none;
+/*	font-weight: bold;
+	color : #3369b7;*/
+}
+
+div.guide-navigation .file a {
+	font-weight: normal;
+/*	color : #3369b7;*/
+}
+
+div.guide a:hover {
+	text-decoration:underline;
+}
+
+div.guide a.example:hover {
+	text-decoration:underline;
+}
+
+div.guide .example-title {
+	font-weight:bold;
+}
+
+div.guide .example-description {
+	padding-top:4px;
+	font-style: italic;
+}
+
+div.guide span.folder {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+div.guide textarea {
+	font-family: Monaco, "Consolas", "Courier New", Courier, mono, serif;
+	
+	font-weight:normal;
+	color:#000000;
+}
+
+div.guide img {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+div.guide code {
+	font-family: Monaco, "Consolas", "Courier New", Courier, mono, serif;
+	font-size: 12px;
+}
+
+div.guide span.highlight {
+	font-weight:bold;
+	color:#ff781F;
+	color:rgb(228,85,0);
+}
+
+div.guide div.imgBlock {
+	width: 98%;
+	margin: 10px auto;
+	text-align: center;
+}
+
+div.guide div.imgBlock span {
+	float: left;
+	line-height: 0px;
+}
+
+div.guide div.imgBlock span.left {
+	margin-right: 10px;
+}
+
+div.guide div.imgBlock img {
+	width: 260px;
+}
+div.guide img.small-inline {
+	width: 100px;
+}
+
+div.guide img.medium-inline {
+	width: 200px;
+}
+
+div.guide img.large-inline {
+	width: 600px;
+}
+
+div.guide span.flag {
+	color:red;
+}
+
+span.caption {
+	font-size:90%;
+	font-weight:normal;
+	color:#888888;
+}
+
+div.guide-navigation {
+	width: 225px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top: 8px;
+	padding-bottom:20px;
+	background: #fff;
+	border: none;
+	border-top: none;
+	line-height: 100% !important;
+	font-size: 10px;
+}
+#mainTOC {
+	display: none;
+}
+
+div.guide-navigation ul li, div.guide .toc ul li {
+	margin-bottom: 0px;
+}
+
+div.guide-content {
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+div.guide .borderedImg {
+	border: 1px solid #000;
+}
+
+div.guide .disabled {
+	display:none;
+}
+
+div.guide .clear10 {
+	clear: both;
+	height: 10px;
+}
+
+/* Treeview plugin fixups */
+
+.treeview ul {
+
+}
+.filetree span.folder, .filetree span.file {
+	padding-left: 20px;
+}
+div.guide-navigation .current {
+	background-color: #000;
+	color: #fff !important;
+}
+div.guide-navigation .current a {
+	color: #fff !important;
+}
+
+/* for Highslide popups */
+.highslide-dimming {
+	background: black;
+}
+
+div.guide .highslide-body {
+	font-family:"Lucida Grande",Helvetica,Arial;
+	font-size : 12px;
+}
+
+/* for SyntaxHighlighter 2.0 */
+
+.syntaxhighlighter {border: 1px solid #e4e4e4; width: 99%;}
+.narrowSH {width: 650px !important;}
+
+ /**********
+  * Release Notes styles
+  * *******/
+
+.releaseNotes li {
+    margin-top: 0px;
+    padding: 5px;
+    border-bottom: 1px solid #CCCCCC
+}
+    
+.releaseNotes li img {
+    padding-right: 5px;
+}
+
+.releaseNotes .add {
+	list-style-position:outside;
+	list-style-type:none;
+	padding-left:30px;
+	background: url(http://www.aptana.com/system/files/add.png) left no-repeat;
+}
+
+.releaseNotes .bug {
+	list-style-position:outside;
+	list-style-type:none;
+	padding-left:30px;
+	background: url(http://www.aptana.com/system/files/bug.png) left no-repeat;
+}
+
+.releaseNotes .important {
+	background-color: #FAFC75;
+}
+
+.guide.guide-navigation {
+  float:right;
+  top:145px;
+  right:10px;
+}

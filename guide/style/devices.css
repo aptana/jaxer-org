@@ -1,0 +1,77 @@
+
+.devices .snippet {
+	font-family: Monaco, "Consolas", "Courier New", Courier, mono, serif;
+	font-size: 10px;
+	font-weight:normal;
+	color : #000000;
+	background-color:rgb(250,250,250);
+	border:1px dashed rgb(200,200,200);
+	margin: 10px 0px 10px 8px;
+	padding:4px 8px 2px 8px;
+}
+
+.devices textarea.snippet {
+	width: 93%; 
+	overflow: auto;
+	min-height: 300px;
+}
+
+.devices li .snippet {
+	margin-top:8px;
+	margin-bottom:4px;
+}
+
+/*
+.devices .note {
+	background-color:rgb(216,228,241);
+	border:1px solid rgb(196,208,221);
+	padding:8px 8px 8px 8px;
+}
+*/
+
+.devices .note {
+	background-color:rgb(244,244,255);
+	border:1px solid rgb(220,220,220);
+	padding:8px 8px 8px 8px;
+	margin:8px 20px 20px 8px;
+}
+
+.devices .warning {
+	background-color:rgb(255,255,206);
+	border:1px solid rgb(255,255,170);
+}
+
+.devices table {
+	border-spacing:0px;
+	background-color:rgb(255,255,255);
+	border:1px solid rgb(200,200,200);
+	padding-bottom:3px;
+	margin:8px 8px 8px 8px;
+}
+
+.devices th {
+	background-color:rgb(240,240,240);
+	border-bottom:1px solid rgb(200,200,200);
+	padding:3px 5px 3px 5px;
+}
+
+.devices td {
+	padding:3px 5px 0px 5px;
+	vertical-align:top;
+}
+
+.devices table td:first-child {
+	width:150px;
+}
+
+.devices table.borderedTable {
+	width: 100%; 
+	margin: 0px; 
+	padding: 0px;
+}
+
+.devices table.borderedTable td {
+	border: 1px solid #e8e8e8;
+	border-collapse: collapse;
+	overflow: scroll;
+}
